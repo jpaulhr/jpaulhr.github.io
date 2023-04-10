@@ -1,0 +1,45 @@
+.contenedor {
+    display: flex; 
+    max-height: 300px;
+}
+
+.grafico {
+    flex-basis: 50%;
+    padding: 20px;
+}
+
+.mi-tabla {
+    background-color: rgb(245, 248, 66);
+    width: 32%;
+    margin-left: 0%;
+    border-collapse: collapse;
+    border : 2px solid rgb(0, 0, 0);
+    padding: 50px;
+    zoom : 0.9;
+    flex-basis: 50%;
+}
+
+.encabezado-tabla {
+    background-color: rgb(252, 220, 78) ;
+    font-weight : bold;
+    font-family: Garamond, serif;
+}
+th, td { 
+    border: 1px solid rgb(0, 0, 0); 
+    text-align: center;
+    padding : 3px;
+    font-family: Garamond, serif;
+}
+h1 {
+    position: relative;
+    left: 400px;
+    font-family : Garamond, serif;
+}
+
+#Chart{
+    zoom: 1.2;
+}
+
+body{
+    background-color: rgb(235, 199, 132);
+}
